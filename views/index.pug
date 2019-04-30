@@ -1,0 +1,55 @@
+include includes/struct/header
+
+div#carID.carousel.slide(data-ride="carousel")
+  ol.carousel-indicators
+    li.active(data-target="#carID" data-slide-to = "0")
+    li(data-target="#carID" data-slide-to = "1")
+    li(data-target="#carID" data-slide-to = "2")
+  .carousel-inner
+    .carousel-item.active
+      img.d-block.w-100(src="/images/slide1.jpg" alt="Первый слайд")
+      .carousel-caption.d-none.d-md-block
+        h3 Первый слайд
+        p Мелкий текст первого слайда
+    .carousel-item
+      img.d-block.w-100(src="/images/slide2.jpg" alt="Первый слайд")
+      .carousel-caption.d-none.d-md-block
+        h3 Второй слайд
+        p Мелкий текст второго слайда
+    .carousel-item
+      img.d-block.w-100(src="/images/slide3.jpg" alt="Первый слайд")
+      .carousel-caption.d-none.d-md-block
+        h3 Третий слайд
+        p Мелкий текст третьего слайда
+  .carousel-control-prev(role="button" href="#carID" data-slide="prev")
+    span.carousel-control-prev-icon(aria-hidden="true")
+    span.sr-only Previous
+  .carousel-control-next(role="button" href="#carID" data-slide="next")
+    span.carousel-control-next-icon(aria-hidden="true")
+    span.sr-only Next
+        // Div #carID end
+// Conatainer started
+.container
+  center
+    H3 This is a big text
+    p
+      | This is a long test. Long long long long text.
+    p
+      | Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+  .row
+    .col-lg-4
+      center
+        img(width="140" height = "140" src="/images/one.jpg").rounded-circle.roundImage
+        p This is text 1
+    .col-lg-4
+      center
+        img(width="140" height = "140" src="/images/two.jpg").rounded-circle.roundImage
+        p This is text 2
+    .col-lg-4
+      center
+        img(width="140" height = "140" src="/images/one.jpg").rounded-circle.roundImage
+        p This is text 3
+  
+        
+  script(type='text/javascript', src='/javascripts/jquery.min.js')
+  script(type='text/javascript', src='/javascripts/bootstrap.js') 

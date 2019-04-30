@@ -1,0 +1,19 @@
+include includes/struct/header
+- var text = data.text;
+  .carousel-control-prev(role="button" href="#carID" data-slide="prev")
+    span.carousel-control-prev-icon(aria-hidden="true")
+    span.sr-only Previous
+  .carousel-control-next(role="button" href="#carID" data-slide="next")
+    span.carousel-control-next-icon(aria-hidden="true")
+    span.sr-only Next
+        // Div #carID end
+// Conatainer started
+.container
+  .header
+    H3= data.name
+    // Formated text
+  .text !{text}
+  
+        
+  script(type='text/javascript', src='/javascripts/jquery.min.js')
+  script(type='text/javascript', src='/javascripts/bootstrap.js') 

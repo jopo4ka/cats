@@ -1,0 +1,16 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.roundImage{
+  margin-bottom: 5px;
+}
+.carousel{
+  margin-bottom: 4rem;
+}
+.carousel-inner{
+  max-height: 500px;
+}
