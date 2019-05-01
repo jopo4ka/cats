@@ -1,6 +1,6 @@
 // for debug on localhost
 //var uri = 'mongodb://localhost/cats';       // Настройки подключения к БД
-var uri = "mongodb://<dbuser>:<dbpassword>@ds149606.mlab.com:49606/cats";
+var uri = "mongodb://user:Password1@ds149606.mlab.com:49606/cats";
 var debug = require('debug')("cats:mongo"); // Дебаг
 // Подключение внешних файлов для работы с БД
 var mongoose = require("mongoose");
